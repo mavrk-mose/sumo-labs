@@ -14,7 +14,7 @@ body {
 }
 h1, h2 {
     font-weight: 10;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1em;
     font-style:normal;
 }
@@ -23,23 +23,47 @@ p {
     width: clamp(45ch, 50%, 75ch);
     letter-spacing: 0em;
     font-style: normal;
-    letter-spacing: .04em;
-    line-height: 1.05em;
+    letter-spacing: .09em;
+
 }
-.hero {
+em {
+  font-style: italic;  
+}
+.container {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    height: 100vh;
+    flex-direction: column;
 }
 
+    /* hero section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 5%;
+}
+.small-img {
+    width: 14rem;
+    height: 14rem;
+    margin-top: 35%;
+}
+.paragraph  {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.content {
+    margin-top: 15%;
+}
+    /* about section */
 .about {
     display: flex;
-    flex-direction: row;
     height: 100vh;
     margin-top: 5%;
 }
-
+.creative-values {
+    transform:rotate(90deg);
+} 
+    /* description section */
 .description {
     display: flex;
     flex-direction:column;
@@ -47,44 +71,60 @@ p {
     align-items: center;
     height: 100vh;
 }
-
+    /* inspiration section */
 .inspiration {
     display: flex;
     flex-direction: row;
     height: 100vh;
 }
+.inspired {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    background-color: #F6F0E9;
+}
+.names {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.name {
+    width: 100%;
+    padding: 30%;
+}
 
+        /* clients section */
 .clients {
     display: flex;
+    justify-content: center;
+    align-items: items;
     flex-direction: row;
     height: 100vh;
 }
+.client {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.clientele {
+    width: auto;
+    padding: 15%;
+}
 
+        /* reviews section */
 .reviews{
     display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
 }
-.creative-values {
-    transform:rotate(90deg);
-}
-
-.small-img {
-    width: 14rem;
-    height: 14rem;
-    margin-top: 30%;
-}
-
+      /* footer section */
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-em {
-  font-style: italic;  
-}
 
-.inspired {
-    background-color: #F6F0E9;
-}
+
