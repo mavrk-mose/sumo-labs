@@ -18,9 +18,13 @@ h1, h2 {
     line-height: 1em;
     font-style:normal;
 }
-
+h5 {
+    font-size: 1rem;
+    line-height: 1em;
+}
 p {
     width: clamp(45ch, 50%, 75ch);
+    font-size: 0.9rem;
     letter-spacing: 0em;
     font-style: normal;
     letter-spacing: .09em;
@@ -41,9 +45,7 @@ em {
     height: 100vh;
     gap: 5%;
 }
-.large-img {
-    padding: 1%;
-}
+
 .small-img {
     width: 20rem;
     height: 15rem;
@@ -55,18 +57,29 @@ em {
     flex-direction: row;
 }
 .content {
-    margin-top: 15%;
+    margin-top: 3%;
 }
     /* about section */
 .about {
     display: flex;
+    flex-direction: row;
     height: 100vh;
-    margin-top: 5%;
-    position: relative;
+    margin-top: 10%;
 }
 .creative-values {
     transform:translate(-20em)rotate(90deg);
 } 
+.grid {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+.girls {
+    display: flex;
+    flex-direction: column;
+    width:25.95rem ;
+    height: 20rem;
+}
     /* description section */
 .description {
     display: flex;
@@ -75,7 +88,6 @@ em {
     align-items: center;
     height: 100vh;
     padding: 2%;
-    position: relative;
 }
 .reviews{
     display: flex;
@@ -124,6 +136,7 @@ em {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-top: 5%;
 }
 .client {
     display: flex;
