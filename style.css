@@ -9,11 +9,11 @@
   }
 
 body {
-    font-family: IvyMode,sans-serif;
+    font-family: IvyMode, monospace;
     background-color: #FBF6F4;
 }
 h1, h2 {
-    font-weight: 10;
+    font-weight: 2;
     font-size: 2rem;
     line-height: 1em;
     font-style:normal;
@@ -41,9 +41,12 @@ em {
     height: 100vh;
     gap: 5%;
 }
+.large-img {
+    padding: 1%;
+}
 .small-img {
-    width: 14rem;
-    height: 14rem;
+    width: 20rem;
+    height: 15rem;
     margin-top: 35%;
 }
 .paragraph  {
@@ -59,9 +62,10 @@ em {
     display: flex;
     height: 100vh;
     margin-top: 5%;
+    position: relative;
 }
 .creative-values {
-    transform:rotate(90deg);
+    transform:translate(-20em)rotate(90deg);
 } 
     /* description section */
 .description {
@@ -70,20 +74,38 @@ em {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 2%;
+    position: relative;
 }
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
     /* inspiration section */
 .inspiration {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     height: 100vh;
+    padding: 5%;
 }
 .inspired {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10%;
     background-color: #F6F0E9;
+}
+.insp-photo {
+    padding: 5%;
 }
 .names {
     display: flex;
@@ -98,9 +120,9 @@ em {
         /* clients section */
 .clients {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: items;
-    flex-direction: row;
+    align-items: center;
     height: 100vh;
 }
 .client {
@@ -113,13 +135,6 @@ em {
     padding: 15%;
 }
 
-        /* reviews section */
-.reviews{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-}
       /* footer section */
 footer {
     display: flex;
