@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Ivy Mode';
+    src:url('./fonts/IvyMode-Light.eot'),
+        url('./fonts/IvyMode-Light.woff2') format('woff2'),
+        url('./fonts/IvyMode-Light.woff') format('woff'),
+        url('./fonts/IvyMode-Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    font-family: IvyMode,sans-serif;
+    background-color: #FBF6F4;
+}
+h1, h2 {
+    font-weight: 10;
+    font-size: 3rem;
+    line-height: 1em;
+    font-style:normal;
+}
+
+p {
+    width: clamp(45ch, 50%, 75ch);
+    letter-spacing: 0em;
+    font-style: normal;
+    letter-spacing: .04em;
+    line-height: 1.05em;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin-top: 5%;
+}
+
+.description {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.inspiration {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.clients {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.creative-values {
+    transform:rotate(90deg);
+}
+
+.small-img {
+    width: 14rem;
+    height: 14rem;
+    margin-top: 30%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+em {
+  font-style: italic;  
+}
+
+.inspired {
+    background-color: #F6F0E9;
+}
