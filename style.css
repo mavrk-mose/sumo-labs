@@ -182,6 +182,7 @@ em {
     justify-content:center;
 }
 .name {
+    white-space: nowrap;
     width: 100%;
     padding: 30%;
 }
@@ -201,6 +202,7 @@ em {
     align-items: center;
 }
 .clientele {
+    white-space: nowrap;
     padding: 15%;
 }
 
