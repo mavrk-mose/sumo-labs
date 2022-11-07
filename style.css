@@ -9,7 +9,7 @@
   }
 
 body {
-    font-family: IvyMode, monospace;
+    font-family: 'Ivy Mode', monospace;
     background-color: #FBF6F4;
     margin: 0;
     padding: 0;
@@ -87,32 +87,57 @@ em {
     width: auto;
     margin-top: 35%;
 }
+
     /* about section */
 .about {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    height: 100vh;
-    margin-top: 10%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 110vh;
+    width: 100%;
     right: 0;
 }
 .creative-values {
-    transform:translate(-20em)rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 23%;
+}
+
+.creative-values h2 {
+    transform:translateY(-50%)rotate(-90deg);
+    margin: 0;
 } 
+
 .grid {
     display: flex;
-    flex-direction: row;
+    height: 90vh;
+    width: calc(100vw - 23%);
 }
 .girl {
-    width: auto;
-    height: 30vh;
+    width: 75%;
+    height: 90vh;
+}
+
+.girl img {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
 }
 .girls {
     display: flex;
     flex-direction: column;
-    width:31.9vw ;
-    height: 100%;
+    width:25%;
+    height: 90vh;
 }
+.girls img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;  
+}
+
     /* description section */
 .description {
     display: flex;
@@ -137,10 +162,9 @@ em {
     /* inspiration section */
 .inspiration {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     height: 100vh;
-    padding: 5%;
+    right: 0;
 }
 .inspired {
     display: flex;
@@ -166,7 +190,7 @@ em {
 .clients {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     height: 100vh;
     margin-top: 5%;
@@ -177,7 +201,6 @@ em {
     align-items: center;
 }
 .clientele {
-    width: auto;
     padding: 15%;
 }
 
