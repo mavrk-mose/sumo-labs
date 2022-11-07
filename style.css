@@ -191,10 +191,9 @@ em {
 .clients {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
     align-items: center;
+    justify-content: center;
     height: 100vh;
-    margin-top: 5%;
 }
 .client {
     display: flex;
