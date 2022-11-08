@@ -10,8 +10,8 @@
     src:url('./fonts/commuterssans-regular.otf') format('truetype');
   }
   @font-face {
-    font-family: 'ivypresto';
-    src:url('') format('truetype');
+    font-family: 'lora';
+    src:url('./fonts/Lora-VariableFont_wght.ttf') format('truetype');
   }
 body {
     color: #3D3D3D;
@@ -19,10 +19,17 @@ body {
     margin: 0;
     padding: 0;
 }
-h1, h2 {
+h1 {
     font-family: 'Ivy Mode', monospace;
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 3em;
+    line-height: 1em;
+    font-style:normal;
+}
+h2 {
+    font-family: 'Ivy Mode', monospace;
+    font-weight: 100;
+    font-size: 2em;
     line-height: 1em;
     font-style:normal;
 }
@@ -49,6 +56,7 @@ h5 {
     margin-bottom: 10px;
 }
 p {
+    font-family: 'lora';
     width: clamp(45ch, 50%, 75ch);
     font-size: 0.9rem;
     letter-spacing: 0em;
@@ -98,8 +106,9 @@ em {
 }
 .paragraph  {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    justify-content:center;
+    left: 0;
+    
 }
 .img-2 {
     display: flex;
