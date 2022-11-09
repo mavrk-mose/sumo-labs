@@ -209,6 +209,7 @@ em {
 .inspiration {
     display: flex;
     justify-content: space-between;
+    padding: 0 10% 0 0;
     height: 100vh;
     right: 0;
 }
@@ -217,10 +218,21 @@ em {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F6F0E9;
+    background-color: #F6F0E9; 
+    width: 50vw;
+    
 }
 .insp-photo {
-    padding: 5%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height:85vh;
+    width: 45%;
+}
+.insp-photo img {
+    height: 70%;
+    width: 60%;
+    object-fit: cover;
 }
 .names {
     display: flex;
