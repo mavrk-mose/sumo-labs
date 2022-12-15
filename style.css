@@ -4,10 +4,12 @@
         url('./fonts/IvyMode-Light.woff2') format('woff2'),
         url('./fonts/IvyMode-Light.woff') format('woff'),
         url('./fonts/IvyMode-Light.ttf') format('truetype');
-    
+}
+@font-face {
     font-family: 'Commuter Sans';
     src:url('./fonts/commuterssans-regular.otf') format('truetype');
-    
+}
+@font-face{
     font-family: 'lora';
     src:url('./fonts/Lora-VariableFont_wght.ttf') format('truetype');
   }
